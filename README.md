@@ -1,13 +1,18 @@
-# README
-## This is the README for your extension "nighthawk"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Nighthawk
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A synthwave inspired dark VS Code theme. Leaning to the side of higher contrast and more accentuated borders and shadows. Into the dark 🌃🌑
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Screenshots
 
-**Enjoy!**
+![Code Pane](images/1.png)
+
+![Sidebar](images/2.png)
+
+![Terminal](images/3.png)
+
+## Installation
+
+1.  Launch VS Code extensions menu
+2.  Search for **_Nighthawk_**
+3.  Install and Reload
+4.  On the bottom left click: ⚙️ > Color Themes > _Nighthawk_

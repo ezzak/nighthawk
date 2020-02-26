@@ -1,21 +1,43 @@
 {
-    "name": "nighthawk",
-    "displayName": "Nighthawk",
-    "description": "TODO",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Nighthawk",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Nighthawk-color-theme.json"
-            }
-        ]
-    }
+  "name": "nighthawk",
+  "displayName": "Nighthawk",
+  "description": "TODO",
+  "version": "0.0.1",
+  "publisher": "ezzak",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezzak/nighthawk"
+  },
+  "bugs": {
+    "url": "https://github.com/ezzak/nighthawk/issues",
+    "email": "ezz1994@gmail.com"
+  },
+  "keywords": [
+    "Dark Theme",
+    "Synthwave",
+    "Nocturnal",
+    "Nighthawk",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nighthawk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nighthawk-color-theme.json"
+      }
+    ]
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "galleryBanner": {
+    "color": "#13171f",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png"
 }
