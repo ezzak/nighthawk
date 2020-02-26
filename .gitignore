@@ -1,0 +1,6 @@
+# sample test files
+/samples
+
+/.vscode
+
+.DS_Store

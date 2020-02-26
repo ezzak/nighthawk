@@ -1,0 +1,21 @@
+{
+    "name": "nighthawk",
+    "displayName": "Nighthawk",
+    "description": "TODO",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nighthawk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nighthawk-color-theme.json"
+            }
+        ]
+    }
+}
