@@ -1,7 +1,7 @@
 {
   "name": "nighthawk",
   "displayName": "Nighthawk",
-  "description": "TODO",
+  "description": "A synthwave inspired dark VS Code theme. Leaning to the side of higher contrast and more accentuated borders and shadows. Into the dark 🌃🌑",
   "version": "0.0.1",
   "publisher": "ezzak",
   "engines": {
