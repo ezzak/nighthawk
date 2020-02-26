@@ -2,7 +2,7 @@
   "name": "nighthawk",
   "displayName": "Nighthawk",
   "description": "A synthwave inspired dark VS Code theme. Leaning to the side of higher contrast and more accentuated borders and shadows. Into the dark 🌃🌑",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ezzak",
   "engines": {
     "vscode": "^1.41.0"
@@ -10,10 +10,6 @@
   "categories": [
     "Themes"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ezzak/nighthawk"
-  },
   "bugs": {
     "url": "https://github.com/ezzak/nighthawk/issues",
     "email": "ezz1994@gmail.com"
@@ -36,7 +32,7 @@
   },
   "license": "SEE LICENSE IN LICENSE.txt",
   "galleryBanner": {
-    "color": "#13171f",
+    "color": "#0B162D",
     "theme": "dark"
   },
   "icon": "images/icon.png"
