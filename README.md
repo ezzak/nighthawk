@@ -1,4 +1,4 @@
-# Nighthawk
+# Nighthawk <img src="images/icon.png" height="24" width="24"/>
 
 A synthwave inspired dark VS Code theme. Leaning to the side of higher contrast and more accentuated borders and shadows. Into the dark 🌃🌑
 
