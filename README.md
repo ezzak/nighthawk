@@ -4,11 +4,11 @@ A synthwave inspired dark VS Code theme. Leaning to the side of higher contrast 
 
 ## Screenshots
 
-![Code Pane](images/1.png)
+![Code Pane](https://i.imgur.com/bsQu8hb.png)
 
-![Sidebar](images/2.png)
+![Sidebar](https://i.imgur.com/WmFC48z.png)
 
-![Terminal](images/3.png)
+![Terminal](https://i.imgur.com/MnAaGG3.png)
 
 ## Installation
 
