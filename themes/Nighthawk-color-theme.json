@@ -78,8 +78,8 @@
     "editorError.foreground": "#D51B6F",
     "editorWarning.foreground": "#b59a05",
     "editorWhitespace.foreground": "#fff3",
-    "editorIndentGuide.activeBackground": "#fffc",
-    "editorIndentGuide.background": "#306BAC",
+    "editorIndentGuide.activeBackground": "#fff9",
+    "editorIndentGuide.background": "#306BAC99",
     "editorHoverWidget.border": "#fff5",
     "editorMarkerNavigation.background": "#050b16",
     "editorMarkerNavigationError.background": "#D51B6F",
@@ -293,10 +293,11 @@
     "menubar.selectionBackground": "#fff2",
     "menubar.selectionForeground": "#D51B6F",
 
-    // Quick Pickeer
+    // Quick Picker
     "pickerGroup.border": "#D51B6F",
     "pickerGroup.foreground": "#379392",
     "quickInput.foreground": "#fffc",
+    "quickInput.background": "#0B162D",
 
     // Git Colors
     "gitDecoration.addedResourceForeground": "#379392",
@@ -365,9 +366,10 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#D47156",
+        "foreground": "#D47156"
       }
-    },{
+    },
+    {
       "name": "JSON Key - Level 4",
       "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
@@ -432,7 +434,7 @@
       "name": "Markdown - Plain",
       "scope": [
         "text.html.markdown",
-        "punctuation.definition.list_item.markdown",
+        "punctuation.definition.list_item.markdown"
       ],
       "settings": {
         "foreground": "#fff"
@@ -487,7 +489,10 @@
     },
     {
       "name": "Markdown - Separator",
-      "scope": ["meta.separator", "string.other.link.description.title.markdown"],
+      "scope": [
+        "meta.separator",
+        "string.other.link.description.title.markdown"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#E8C547"
@@ -634,7 +639,7 @@
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
         "constant.character.escape",
-        "support.other.variable", 
+        "support.other.variable",
         "string.other.link"
       ],
       "settings": {
@@ -667,7 +672,7 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#7c5f5f",
+        "foreground": "#7c5f5f"
       }
     },
     {
@@ -676,6 +681,6 @@
       "settings": {
         "foreground": "#34c274"
       }
-    },
+    }
   ]
 }
