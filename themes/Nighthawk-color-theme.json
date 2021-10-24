@@ -508,7 +508,6 @@
     {
       "name": "Block Level Variables, Tag",
       "scope": [
-        "meta.block variable.other",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
@@ -535,7 +534,9 @@
         "variable",
         "variable.parameter",
         "string constant.other.placeholder",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "variable.other.readwrite.alias",
+        "meta.block variable.other",
       ],
       "settings": {
         "foreground": "#D51B6F"
@@ -544,14 +545,15 @@
     {
       "name": "Class, Support",
       "scope": [
-        "entity.name",
         "support.type",
         "support.class",
         "support.orther.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types"
+        "support.type.sys-types",
+        "entity.name.type.class",
+        "meta.class",
       ],
       "settings": {
         "foreground": "#da4cce"
@@ -608,7 +610,8 @@
         "keyword.other",
         "string.regexp",
         "constant.other.color",
-        "meta.function-call.arguments"
+        "meta.function-call.arguments",
+        "keyword.control.type",
       ],
       "settings": {
         "foreground": "#D47156"
@@ -620,10 +623,10 @@
         "string",
         "constant.other.symbol",
         "constant.other.key",
-        "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "meta.object-literal.key",
       ],
       "settings": {
         "foreground": "#4bd1cf"
@@ -656,14 +659,25 @@
     },
     {
       "name": "Entity Types",
-      "scope": ["support.type"],
+      "scope": [
+        "support.type",
+        "meta.type.annotation",
+        "meta.return.type",
+        "entity.name.type.interface",
+        "meta.type.parameters",
+        "meta.interface",
+      ],
       "settings": {
         "foreground": "#ddbb22"
       }
     },
     {
       "name": "Attributes, Keyword",
-      "scope": ["entity.other.attribute-name", "keyword"],
+      "scope": [
+        "entity.other.attribute-name",
+        "keyword",
+        "constant.language.import-export-all"
+      ],
       "settings": {
         "foreground": "#C792EA"
       }
